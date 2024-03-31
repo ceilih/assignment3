@@ -282,7 +282,7 @@ void GraphValuesInMemory(string[] dates, double[] values, int logicalSize)
   {
     dayint[index] = int.Parse(saleday[index]);
   }
-	Console.Write($"Dollars");
+	Console.Write($"\nDollars");
   do
   {
       num -= 10;
