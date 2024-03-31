@@ -266,11 +266,23 @@ void EditMemoryValues(string[] dates, double[] values, int logicalSize)
     {
         values[index] = GetValue($"Enter new value ", 0, 100);
     }
-
 }
 
 void GraphValuesInMemory(string[] dates, double[] values, int logicalSize)
 {
-	Console.WriteLine("Not Implemented Yet");
-	//TODO: Replace this code with yours to implement this function.
+  int num = 90;
+	Console.Write($"Dollars");
+  for(num = 90; num < 10; num -= 10)
+  {
+    Console.Write($"\n    ${num} |");
+    for(int i = 1; i <= physicalSize; i++)
+    {
+      if(values[i] < num + 10 && values[i] <= num)
+        Console.Write($"{values[i]} ");
+      else
+        Console.Write("   ");
+    }
+  }
+  Console.WriteLine("\n        ______");
+  Console.WriteLine($"   Days | 1 2 3");
 }

@@ -1,0 +1,15 @@
+C:\CPSC1012\assignment3\assignment3\bin\Debug\net8.0\assignment3.exe
+C:\CPSC1012\assignment3\assignment3\bin\Debug\net8.0\assignment3.deps.json
+C:\CPSC1012\assignment3\assignment3\bin\Debug\net8.0\assignment3.runtimeconfig.json
+C:\CPSC1012\assignment3\assignment3\bin\Debug\net8.0\assignment3.dll
+C:\CPSC1012\assignment3\assignment3\bin\Debug\net8.0\assignment3.pdb
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.GeneratedMSBuildEditorConfig.editorconfig
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.AssemblyInfoInputs.cache
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.AssemblyInfo.cs
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.csproj.CoreCompileInputs.cache
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.sourcelink.json
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.dll
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\refint\assignment3.dll
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.pdb
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\assignment3.genruntimeconfig.cache
+C:\CPSC1012\assignment3\assignment3\obj\Debug\net8.0\ref\assignment3.dll
