@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CPSC1012\\assignment3\\cpscassignment3\\cpscassignment3.csproj": {}
+    "C:\\CPSC1012\\assignment3\\assignment3\\assignment3.csproj": {}
   },
   "projects": {
-    "C:\\CPSC1012\\assignment3\\cpscassignment3\\cpscassignment3.csproj": {
+    "C:\\CPSC1012\\assignment3\\assignment3\\assignment3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CPSC1012\\assignment3\\cpscassignment3\\cpscassignment3.csproj",
-        "projectName": "cpscassignment3",
-        "projectPath": "C:\\CPSC1012\\assignment3\\cpscassignment3\\cpscassignment3.csproj",
+        "projectUniqueName": "C:\\CPSC1012\\assignment3\\assignment3\\assignment3.csproj",
+        "projectName": "assignment3",
+        "projectPath": "C:\\CPSC1012\\assignment3\\assignment3\\assignment3.csproj",
         "packagesPath": "C:\\Users\\Ceilli\\.nuget\\packages\\",
-        "outputPath": "C:\\CPSC1012\\assignment3\\cpscassignment3\\obj\\",
+        "outputPath": "C:\\CPSC1012\\assignment3\\assignment3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ceilli\\AppData\\Roaming\\NuGet\\NuGet.Config"
