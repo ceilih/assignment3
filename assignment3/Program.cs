@@ -303,21 +303,22 @@ void GraphValuesInMemory(string[] dates, double[] values, int logicalSize)
       }
   }while(num > 10);
   Console.Write("\n        -");
-  while(count < 117)
+  count = 1;
+  while(count < 94)
   {
     Console.Write($"-");
     count += 1;
   }
   Console.Write($"\n   Days |");
-  count = 1;
-  while(count < 10)
+  FormatGraph($" 0", 1, 10);
+  FormatGraph($" ", 10, 32);
+}
+
+void FormatGraph(string prompt, int count, int max)
+{
+    while(count < max)
   {
-    Console.Write($" 0{count}");
-    count += 1;
-  }
-    while(count < 32)
-  {
-    Console.Write($" {count}");
+    Console.Write($"{prompt}" + count);
     count += 1;
   }
 }
