@@ -270,19 +270,22 @@ void EditMemoryValues(string[] dates, double[] values, int logicalSize)
 
 void GraphValuesInMemory(string[] dates, double[] values, int logicalSize)
 {
-  int num = 90;
+  int num = 100;
 	Console.Write($"Dollars");
-  for(num = 90; num < 10; num -= 10)
+  do
   {
-    Console.Write($"\n    ${num} |");
-    for(int i = 1; i <= physicalSize; i++)
-    {
-      if(values[i] < num + 10 && values[i] <= num)
-        Console.Write($"{values[i]} ");
-      else
-        Console.Write("   ");
-    }
-  }
+      num -= 10;
+      Console.Write($"\n    ${num} |");
+      for(int i = 0; i < logicalSize; i++)
+      {
+        if(values[i] < num + 10 && values[i] >= num)
+        {
+          Console.Write($" {values[i]}");
+        }
+        else
+          Console.Write("   ");
+      }
+  }while(num > 0);
   Console.WriteLine("\n        ______");
-  Console.WriteLine($"   Days | 1 2 3");
+  Console.WriteLine($"   Days |01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 ");
 }
