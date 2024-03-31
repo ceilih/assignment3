@@ -264,28 +264,60 @@ void EditMemoryValues(string[] dates, double[] values, int logicalSize)
         throw new Exception($"Date not found. Add or load entry.");
     if(index != 0)
     {
-        values[index] = GetValue($"Enter new value ", 0, 100);
+        values[index] = GetValue($"Enter new value ", 0, 99);
     }
 }
 
 void GraphValuesInMemory(string[] dates, double[] values, int logicalSize)
 {
   int num = 100;
+  int count = 1;
+  string[] saleday = new string[logicalSize];
+  for(int index = 0; index < logicalSize; index++)
+  {
+    saleday[index] = dates[index].Substring(3,2);
+  }
+  int[] dayint = new int[logicalSize];
+  for(int index = 0; index < logicalSize; index++)
+  {
+    dayint[index] = int.Parse(saleday[index]);
+  }
 	Console.Write($"Dollars");
   do
   {
       num -= 10;
+      count = 1;
       Console.Write($"\n    ${num} |");
       for(int i = 0; i < logicalSize; i++)
       {
         if(values[i] < num + 10 && values[i] >= num)
         {
+          while(count < dayint[i])
+          {
+            Console.Write("   ");
+            count += 1;
+          }
           Console.Write($" {values[i]}");
+          count +=1;
         }
-        else
-          Console.Write("   ");
       }
-  }while(num > 0);
-  Console.WriteLine("\n        ______");
-  Console.WriteLine($"   Days |01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 ");
+  }while(num > 10);
+  Console.Write("\n        -");
+  while(count < 117)
+  {
+    Console.Write($"-");
+    count += 1;
+  }
+  Console.Write($"\n   Days |");
+  count = 1;
+  while(count < 10)
+  {
+    Console.Write($" 0{count}");
+    count += 1;
+  }
+    while(count < 32)
+  {
+    Console.Write($" {count}");
+    count += 1;
+  }
 }
